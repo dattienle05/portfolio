@@ -2,36 +2,56 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Le Tien Dat | Portfolio</title>
+    <title>Le Tien Dat | Equity Research Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!--==========================
+        LOADER
+===========================-->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>LE TIEN DAT</h1>
+
+        <p>Loading Portfolio...</p>
+
+    </div>
+
+</div>
+
+<!--==========================
+        HEADER
+===========================-->
 
 <header class="header">
 
-    <div class="logo">
+    <a href="#home" class="logo">
 
-        <span>LE TIEN DAT</span>
+        LE TIEN DAT
 
-    </div>
+    </a>
 
     <nav class="navbar">
 
@@ -39,13 +59,11 @@
 
         <a href="#about">About</a>
 
-        <a href="#education">Education</a>
-
         <a href="#experience">Experience</a>
 
-        <a href="#skills">Skills</a>
+        <a href="#projects">Research</a>
 
-        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
 
         <a href="#contact">Contact</a>
 
@@ -53,75 +71,100 @@
 
 </header>
 
-<!-- ================= HERO ================= -->
+<!--==========================
+        HERO
+===========================-->
 
-<section class="hero" id="home">
+<section class="hero section" id="home">
 
-    <div class="hero-left">
+    <div class="hero-content">
 
-        <p class="hero-tag">
+        <span class="hero-tag">
 
             INTERNATIONAL FINANCE STUDENT
 
-        </p>
+        </span>
 
         <h1>
 
-            LE TIEN DAT
+            Building Investment Insights
+
+            <br>
+
+            From Financial Data.
 
         </h1>
 
-        <h2>
-
-            Building investment insights from financial data.
-
-        </h2>
-
         <p class="hero-description">
 
-            Third-year International Finance student at Foreign Trade University.
-
-            Passionate about Equity Research, Financial Modeling,
-
-            Corporate Finance and Valuation.
-
-            CFA Level I Candidate.
+            I'm <strong>Le Tien Dat</strong>, a fourth-year International Finance student at
+            Foreign Trade University with a strong interest in
+            <strong>Equity Research, Valuation, Corporate Finance</strong>,
+            and <strong>Financial Analysis</strong>.
+            I enjoy transforming financial information into practical
+            investment insights.
 
         </p>
 
-        <div class="hero-button">
+        <div class="hero-buttons">
 
-            <a href="#projects" class="btn-primary">
+            <a href="assets/cv.pdf" class="btn-primary">
 
-                View Projects
-
-            </a>
-
-            <a href="assets/cv.pdf" class="btn-secondary">
+                <i class="ri-download-line"></i>
 
                 Download CV
 
             </a>
 
-        </div>
+            <a href="#projects" class="btn-secondary">
 
-        <div class="hero-social">
+                View Research
 
-            <a href="#"><i class="ri-linkedin-fill"></i></a>
-
-            <a href="#"><i class="ri-github-fill"></i></a>
-
-            <a href="#"><i class="ri-mail-fill"></i></a>
+            </a>
 
         </div>
 
     </div>
 
-    <div class="hero-right">
+    <div class="hero-dashboard">
 
-        <div class="profile-card">
+        <div class="dashboard-card">
 
-            <img src="assets/avatar.jpg" alt="Profile">
+            <i class="ri-bar-chart-box-line"></i>
+
+            <h3>5</h3>
+
+            <span>Research Projects</span>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <i class="ri-building-line"></i>
+
+            <h3>1</h3>
+
+            <span>Experience Year</span>
+
+        </div>
+
+        <div class="dashboard-card dashboard-cfa-card">
+
+            <i class="ri-award-line"></i>
+
+            <h3>CFA</h3>
+
+            <span>Level I Passed</span>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <i class="ri-graduation-cap-line"></i>
+
+            <h3>FTU</h3>
+
+            <span>2023-2027</span>
 
         </div>
 
@@ -129,437 +172,830 @@
 
 </section>
 
-<!-- ================= ABOUT ================= -->
+<!--==========================
+        ABOUT
+===========================-->
 
 <section class="about section" id="about">
 
-    <div class="section-title">
+    <div class="section-header">
 
         <span>01</span>
 
-        <h2>About</h2>
+        <h2>About Me</h2>
 
     </div>
 
-    <div class="about-content">
+    <div class="about-grid">
 
         <div class="about-text">
 
             <h3>
 
-                Turning financial information into investment decisions.
+                Passionate About Research,
+
+                Finance and Investment.
 
             </h3>
 
             <p>
 
-                I am currently pursuing a Bachelor of International Finance
+                My academic background has equipped me with a solid
+                foundation in financial analysis, valuation,
+                corporate finance and capital markets.
 
-                at Foreign Trade University.
+                Through coursework, investment research,
+                case competitions and internships,
 
-                My interests lie in Equity Research,
+                I have developed the ability to analyze companies,
 
-                Financial Analysis,
+                interpret financial statements and communicate
 
-                Valuation,
-
-                Corporate Finance,
-
-                and Compliance.
+                investment ideas effectively.
 
             </p>
 
             <p>
 
-                I enjoy analyzing financial statements,
+                My long-term goal is to pursue a career in
 
-                building valuation models,
+                <strong>Equity Research</strong> and
 
-                researching industries,
+                <strong>Investment Banking</strong>,
 
-                and transforming data into meaningful investment insights.
+                continuously improving my analytical skills
+
+                while creating value through data-driven decisions.
 
             </p>
 
         </div>
 
-        <div class="about-stat">
+        <div class="about-profile">
 
-            <div class="stat-card">
+            <div class="profile-card">
 
-                <h3>3+</h3>
+                <img src="assets/avatar.jpg" alt="Le Tien Dat">
 
-                <p>Years of Finance Education</p>
+                <h3>Le Tien Dat</h3>
 
-            </div>
-
-            <div class="stat-card">
-
-                <h3>10+</h3>
-
-                <p>Finance Projects</p>
+                <p>International Finance Student</p>
 
             </div>
 
-            <div class="stat-card">
+            <div class="education-card">
 
-                <h3>1</h3>
+                <h4>
 
-                <p>CFA Level</p>
+                    Education
 
+                </h4>
+
+                <div class="education-item">
+
+                    <strong>
+
+                        Foreign Trade University
+
+                    </strong>
+
+                    <span>
+
+                        Bachelor of International Finance
+
+                    </span>
+
+                    <small>
+
+                        2023 – 2027
+
+                    </small>
+
+                </div>
+
+                <div class="education-item" id="open-cfa">
+
+                    <strong>
+
+                        CFA Program
+
+                    </strong>
+
+                    <span>
+
+                        Passed CFA Level I
+
+                    </span>
+
+                    </small>
+
+                         Click to view the official score report.
+
+                    </small>
+
+                    </div>
+                <i class="ri-external-link-line"></i>
+
+                </div>
             </div>
-
         </div>
 
     </div>
 
 </section>
+<!--========================================
+            EXPERIENCE
+=========================================-->
 
-<!-- ================= EDUCATION ================= -->
+<section class="experience section" id="experience">
 
-<section class="education section" id="education">
-
-    <div class="section-title">
+    <div class="section-header">
 
         <span>02</span>
 
-        <h2>Education</h2>
+        <h2>Professional Experience</h2>
 
     </div>
 
     <div class="timeline">
 
-        <div class="timeline-item">
+        <!--==========================
+                FPT TELECOM
+        ===========================-->
 
-            <span class="year">
+        <article class="timeline-item">
 
-                2023 - Present
-
-            </span>
-
-            <div class="timeline-content">
-
-                <h3>
-
-                    Foreign Trade University
-
-                </h3>
-
-                <p>
-
-                    Bachelor of International Finance
-
-                </p>
-
-            </div>
-
-        </div>
-
-        <div class="timeline-item">
-
-            <span class="year">
-
-                2026
-
-            </span>
+            <div class="timeline-dot"></div>
 
             <div class="timeline-content">
 
-                <h3>
+                <div class="timeline-header">
 
-                    CFA Program
+                    <div>
 
-                </h3>
+                        <h3>FPT Telecom</h3>
 
-                <p>
+                        <span class="position">
 
-                    Passed CFA Level I
+                            Financial Analysis Intern
 
-                </p>
+                        </span>
+
+                    </div>
+
+                    <span class="timeline-date">
+
+                        Jun 2026 – Aug 2026
+
+                    </span>
+
+                </div>
+
+                <ul>
+
+                    <li>
+
+                        Assessed FPT Telecom's financial health through
+                        liquidity, leverage, activity and profitability analysis.
+
+                    </li>
+
+                    <li>
+
+                        Performed variance analysis and benchmarked
+                        financial performance against three industry competitors.
+
+                    </li>
+
+                    <li>
+
+                        Applied DuPont Analysis to evaluate profitability
+                        drivers and identify liquidity and solvency risks.
+
+                    </li>
+
+                    <li>
+
+                        Collected and analyzed financial statements of
+                        five ASEAN companies to support regional
+                        cross-market comparison.
+
+                    </li>
+
+                    <li>
+
+                        Consolidated research findings into investment-style
+                        reports for internal review.
+
+                    </li>
+
+                </ul>
 
             </div>
 
-        </div>
+        </article>
+
+        <!--==========================
+                ISC
+        ===========================-->
+
+        <article class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <div class="timeline-header">
+
+                    <div>
+
+                        <h3>ISC Education</h3>
+
+                        <span class="position">
+
+                            Research Assistant
+
+                        </span>
+
+                    </div>
+
+                    <span class="timeline-date">
+
+                        Mar 2025 – May 2025
+
+                    </span>
+
+                </div>
+
+                <ul>
+
+                    <li>
+
+                        Built and maintained scholarship and university
+                        databases using Microsoft Excel.
+
+                    </li>
+
+                    <li>
+
+                        Collected, cleaned and standardized education data
+                        from multiple sources.
+
+                    </li>
+
+                    <li>
+
+                        Improved reporting efficiency through
+                        structured data management.
+
+                    </li>
+
+                    <li>
+
+                        Collaborated with team members to support
+                        education consulting activities.
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </article>
 
     </div>
 
 </section>
 
-<!-- ================= EXPERIENCE ================= -->
+<!--========================================
+            FEATURED RESEARCH
+=========================================-->
+<!--========================================
+        FEATURED RESEARCH
+=========================================-->
 
-<section class="experience section" id="experience">
+<section id="projects" class="section projects-section">
 
-    <div class="section-title">
+    <div class="container">
 
-        <span>03</span>
+        <!-- SECTION HEADER -->
+        <div class="section-header">
 
-        <h2>Experience</h2>
+            <span>03</span>
 
-    </div>
-
-    <div class="experience-card">
-
-        <div class="company">
-
-            <h3>
-
-                ISC Education
-
-            </h3>
-
-            <span>
-
-                Research Assistant
-
-            </span>
-
-            <small>
-
-                Mar 2025 - May 2025
-
-            </small>
+            <h2>Featured Research</h2>
 
         </div>
 
-        <div class="experience-description">
 
-            <ul>
+        <!-- PROJECT GRID -->
+        <div class="projects-grid">
 
-                <li>
 
-                    Built and maintained scholarship databases.
+            <!--================================
+                    PROJECT 1
+            =================================-->
 
-                </li>
+            <article
+                class="project-card"
+                data-report="assets/bhx-report.pdf"
+            >
 
-                <li>
+                <div class="project-image">
 
-                    Collected and organized higher education information.
+                    <img
+                        src="images/bhx.jpg"
+                        alt="Bach Hoa Xanh Investment Thesis"
+                    >
 
-                </li>
+                </div>
 
-                <li>
 
-                    Worked extensively with Excel and data processing.
+                <div class="project-content">
 
-                </li>
+                    <div class="project-top">
 
-                <li>
+                        <span class="project-tag">
+                            Retail
+                        </span>
 
-                    Improved data quality and reporting efficiency.
+                        <span class="project-year">
+                            2026
+                        </span>
 
-                </li>
+                    </div>
 
-            </ul>
+
+                    <h3>
+                        Bach Hoa Xanh Investment Thesis
+                    </h3>
+
+
+                    <p>
+                        Evaluated Bach Hoa Xanh's financial
+                        performance, distribution network,
+                        operating efficiency, regional growth
+                        potential and investment outlook.
+                    </p>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            Equity Research
+                        </span>
+
+                        <a
+                            href="assets/bhx-report.pdf"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Report
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!--================================
+                    PROJECT 2
+            =================================-->
+
+            <article
+                class="project-card"
+                data-report="assets/gemadept-report.pdf"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="images/gemadept.jpg"
+                        alt="Gemadept Hai An Transport M&A"
+                    >
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-top">
+
+                        <span class="project-tag">
+                            Port Operations
+                        </span>
+
+                        <span class="project-year">
+                            2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Gemadept – Hai An Transport M&A
+                    </h3>
+
+
+                    <p>
+                        Analyzed strategic rationale,
+                        valuation impact, market concentration
+                        and post-merger synergies within
+                        Vietnam's logistics industry.
+                    </p>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            M&A Analysis
+                        </span>
+
+                        <a
+                            href="assets/gemadept-report.pdf"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Report
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!--================================
+                    PROJECT 3
+            =================================-->
+
+            <article
+                class="project-card"
+                data-report="assets/ptsc-report.pdf"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="images/ptsc.jpg"
+                        alt="PTSC Equity Research Report"
+                    >
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-top">
+
+                        <span class="project-tag">
+                            Oil & Gas
+                        </span>
+
+                        <span class="project-year">
+                            2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        PTSC Equity Research Report
+                    </h3>
+
+
+                    <p>
+                        Conducted an equity research report
+                        focusing on engineering capability,
+                        offshore wind, competitive positioning
+                        and long-term earnings growth.
+                    </p>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            Equity Research
+                        </span>
+
+                        <a
+                            href="assets/ptsc-report.pdf"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Report
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!--================================
+                    PROJECT 4
+            =================================-->
+
+            <article
+                class="project-card"
+                data-report="assets/fpt-report.pdf"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="images/fpt.jpg"
+                        alt="FPT Telecom Financial Analysis"
+                    >
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-top">
+
+                        <span class="project-tag">
+                            Telecom
+                        </span>
+
+                        <span class="project-year">
+                            2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        FPT Telecom Financial Analysis
+                    </h3>
+
+
+                    <p>
+                        Comprehensive financial analysis of
+                        FPT Telecom and its competitors,
+                        including ratio analysis, DuPont model
+                        and benchmarking.
+                    </p>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            Financial Analysis
+                        </span>
+
+                        <a
+                            href="assets/fpt-report.pdf"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Report
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!--================================
+                    PROJECT 5
+            =================================-->
+
+            <article
+                class="project-card"
+                data-report="assets/epl-asean-report.pdf"
+            >
+
+                <div class="project-image">
+
+                    <img
+                        src="images/epl-asean.jpg"
+                        alt="ASEAN Premier League Broadcasting Rights Research"
+                    >
+
+                </div>
+
+
+                <div class="project-content">
+
+                    <div class="project-top">
+
+                        <span class="project-tag">
+                            Telecom &amp; Media
+                        </span>
+
+                        <span class="project-year">
+                            2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Corporations Owning English Premier League
+                        Broadcasting Rights in ASEAN
+                    </h3>
+
+
+                    <p>
+                        Researched the financial performance,
+                        competitive landscape and strategic
+                        outlook of companies holding Premier
+                        League broadcasting rights across ASEAN.
+                    </p>
+
+
+                    <div class="project-footer">
+
+                        <span>
+                            Industry Research and Company Analysis
+                        </span>
+
+                        <a
+                            href="assets/epl-asean-report.pdf"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Report
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
 
         </div>
+        <!-- END PROJECT GRID -->
+
 
     </div>
+    <!-- END CONTAINER -->
 
 </section>
+<!-- END FEATURED RESEARCH -->
 
-<!-- ====== PHẦN 2 SẼ TIẾP TỤC TỪ ĐÂY ====== -->
- <!-- ================= SKILLS ================= -->
+<!--========================================
+                SKILLS
+=========================================-->
 
 <section class="skills section" id="skills">
 
-    <div class="section-title">
+    <div class="section-header">
+
         <span>04</span>
-        <h2>Skills</h2>
+
+        <h2>Core Competencies</h2>
+
     </div>
 
     <div class="skills-grid">
 
         <div class="skill-card">
-            <h3>Financial Analysis</h3>
-            <p>Financial Statement Analysis</p>
-        </div>
 
-        <div class="skill-card">
-            <h3>Valuation</h3>
-            <p>DCF · FCFF · Comparable Companies</p>
-        </div>
+            <i class="ri-line-chart-line"></i>
 
-        <div class="skill-card">
-            <h3>Corporate Finance</h3>
-            <p>Capital Budgeting · WACC</p>
-        </div>
-
-        <div class="skill-card">
             <h3>Equity Research</h3>
-            <p>Industry Analysis · Investment Thesis</p>
+
+            <p>
+
+                Data Consolidation, Industry Research, Investment Thesis, Company Analysis 
+
+            </p>
+
         </div>
 
         <div class="skill-card">
-            <h3>Excel</h3>
-            <p>Advanced Financial Modeling</p>
+
+            <i class="ri-funds-line"></i>
+
+            <h3>Financial Analysis</h3>
+
+            <p>
+
+                Common-size Analysis, Ratio Analysis, DuPont Analysis 
+
+            </p>
+
         </div>
 
         <div class="skill-card">
-            <h3>Python</h3>
-            <p>Financial Data Analysis</p>
+
+            <i class="ri-calculator-line"></i>
+
+            <h3>Valuation</h3>
+
+            <p>
+
+                DCF, FCFF, Multiples valuation, WACC, CAPM
+
+            </p>
+
         </div>
 
         <div class="skill-card">
-            <h3>Power BI</h3>
-            <p>Interactive Dashboard</p>
+
+            <i class="ri-building-2-line"></i>
+
+            <h3>Corporate Finance</h3>
+
+            <p>
+
+                Capital Budgeting, Investment Decisions, Financial Modeling
+
+            </p>
+
         </div>
 
         <div class="skill-card">
-            <h3>SQL</h3>
-            <p>Database Query</p>
+
+            <i class="ri-file-excel-2-line"></i>
+
+            <h3>Microsoft Excel</h3>
+
+            <p>
+
+                Financial Modeling, Data Analysis
+
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="ri-presentation-line"></i>
+
+            <h3>Presentation</h3>
+
+            <p>
+
+                Business Presentation, Research Report, Pitch Deck
+
+            </p>
+
         </div>
 
     </div>
 
 </section>
 
-<!-- ================= PROJECTS ================= -->
+<!--========================================
+            CERTIFICATION
+=========================================-->
 
-<section class="projects section" id="projects">
+<section class="certificate section">
 
-    <div class="section-title">
+    <div class="section-header">
+
         <span>05</span>
-        <h2>Featured Projects</h2>
-    </div>
 
-    <div class="projects-grid">
-
-        <article class="project-card">
-
-            <img src="images/project1.jpg" alt="Project">
-
-            <div class="project-info">
-
-                <span>Investment Research</span>
-
-                <h3>Bach Hoa Xanh Expansion Thesis</h3>
-
-                <p>
-                    Industry research, business model analysis,
-                    expansion strategy and investment recommendation.
-                </p>
-
-                <a href="#">
-                    View Case Study →
-                </a>
-
-            </div>
-
-        </article>
-
-        <article class="project-card">
-
-            <img src="images/project2.jpg" alt="Project">
-
-            <div class="project-info">
-
-                <span>Corporate Finance</span>
-
-                <h3>Masan Consumer Valuation</h3>
-
-                <p>
-                    Built a complete DCF valuation model and
-                    financial ratio analysis.
-                </p>
-
-                <a href="#">
-                    View Project →
-                </a>
-
-            </div>
-
-        </article>
-
-        <article class="project-card">
-
-            <img src="images/project3.jpg" alt="Project">
-
-            <div class="project-info">
-
-                <span>Audit</span>
-
-                <h3>Inventory Audit Risk Assessment</h3>
-
-                <p>
-                    Audit planning, risk assessment and audit responses
-                    based on ACCA audit framework.
-                </p>
-
-                <a href="#">
-                    View Project →
-                </a>
-
-            </div>
-
-        </article>
+        <h2>Certification</h2>
 
     </div>
 
-</section>
+    <div class="certificate-wrapper">
 
-<!-- ================= RESEARCH ================= -->
+        <div class="certificate-card" id="openCFA">
 
-<section class="research section">
+            <i class="ri-award-fill"></i>
 
-    <div class="section-title">
+            <h3>
 
-        <span>06</span>
+                CFA Program
 
-        <h2>Investment Research</h2>
+            </h3>
 
-    </div>
+            <h4>
 
-    <div class="research-list">
+                Passed Level I
 
-        <div class="research-item">
-
-            <div>
-
-                <span class="rating buy">BUY</span>
-
-                <h3>Masan Consumer</h3>
-
-            </div>
+            </h4>
 
             <p>
 
-                Consumer sector valuation and growth outlook.
-
-            </p>
-
-        </div>
-
-        <div class="research-item">
-
-            <div>
-
-                <span class="rating hold">HOLD</span>
-
-                <h3>Vietnam Dairy Industry</h3>
-
-            </div>
-
-            <p>
-
-                Industry outlook and competitive landscape.
-
-            </p>
-
-        </div>
-
-        <div class="research-item">
-
-            <div>
-
-                <span class="rating watch">WATCH</span>
-
-                <h3>Bach Hoa Xanh</h3>
-
-            </div>
-
-            <p>
-
-                Expansion strategy and profitability analysis.
+                Click to view the official score report.
 
             </p>
 
@@ -569,183 +1005,63 @@
 
 </section>
 
-<!-- ================= CERTIFICATES ================= -->
-
-<section class="certificates section">
-
-    <div class="section-title">
-
-        <span>07</span>
-
-        <h2>Certificates</h2>
-
-    </div>
-
-    <div class="certificate-grid">
-
-        <div class="certificate-card">
-
-            <h3>CFA Level I</h3>
-
-            <p>Passed</p>
-
-        </div>
-
-        <div class="certificate-card">
-
-            <h3>Financial Modeling</h3>
-
-            <p>Corporate Finance</p>
-
-        </div>
-
-        <div class="certificate-card">
-
-            <h3>Excel</h3>
-
-            <p>Advanced</p>
-
-        </div>
-
-        <div class="certificate-card">
-
-            <h3>Power BI</h3>
-
-            <p>Dashboard Design</p>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- ================= CONTACT ================= -->
+<!--========================================
+                CONTACT
+=========================================-->
 
 <section class="contact section" id="contact">
 
-    <div class="section-title">
+    <div class="section-header">
 
-        <span>08</span>
+        <span>06</span>
 
         <h2>Let's Connect</h2>
 
     </div>
 
-    <div class="contact-container">
+    <div class="contact-grid">
 
-        <div class="contact-left">
+        <a href="mailto:dattienle05.work@gmail.com" class="contact-card">
 
-            <h3>
+            <i class="ri-mail-line"></i>
 
-                Let's Build Something Great Together.
+            <h3>Email</h3>
 
-            </h3>
+            <span>
 
-            <p>
+                dattienle05.work@gmail.com
 
-                I'm always interested in discussing finance,
-                investment research, valuation,
-                corporate finance and internship opportunities.
-
-            </p>
-
-            <div class="contact-info">
-
-                <div class="info-item">
-
-                    <h4>Email</h4>
-
-                    <p>your_email@gmail.com</p>
-
-                </div>
-
-                <div class="info-item">
-
-                    <h4>Phone</h4>
-
-                    <p>+84 xxx xxx xxx</p>
-
-                </div>
-
-                <div class="info-item">
-
-                    <h4>Location</h4>
-
-                    <p>Hanoi, Vietnam</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="contact-right">
-
-            <form>
-
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                >
-
-                <input
-                    type="email"
-                    placeholder="Email Address"
-                >
-
-                <input
-                    type="text"
-                    placeholder="Subject"
-                >
-
-                <textarea
-                    rows="6"
-                    placeholder="Write your message..."
-                ></textarea>
-
-                <button
-                    class="btn-primary"
-                    type="submit"
-                >
-
-                    Send Message
-
-                </button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= CTA ================= -->
-
-<section class="cta">
-
-    <h2>
-
-        Interested in My Work?
-
-    </h2>
-
-    <p>
-
-        Download my CV or connect with me on LinkedIn.
-
-    </p>
-
-    <div class="cta-buttons">
-
-        <a href="assets/cv.pdf" class="btn-primary">
-
-            Download CV
+            </span>
 
         </a>
 
-        <a href="#" class="btn-secondary">
+        <a href="https://www.linkedin.com/in/dattienlework/" target="_blank" class="contact-card">
 
-            LinkedIn
+            <i class="ri-linkedin-box-fill"></i>
+
+            <h3>LinkedIn</h3>
+
+            <span>
+
+                https://www.linkedin.com/in/dattienlework/
+
+            </span>
+
+        </a>
+
+    
+
+        <a href="assets/cv.pdf" class="contact-card">
+
+            <i class="ri-download-cloud-line"></i>
+
+            <h3>Curriculum Vitae</h3>
+
+            <span>
+
+                Download PDF
+
+            </span>
 
         </a>
 
@@ -753,84 +1069,41 @@
 
 </section>
 
-<!-- ================= FOOTER ================= -->
+<!--========================================
+                FOOTER
+=========================================-->
 
 <footer>
 
-    <div class="footer-top">
+    <div class="footer-content">
 
-        <div>
+        <h2>
 
-            <h3>
+            LE TIEN DAT
 
-                LE TIEN DAT
-
-            </h3>
-
-            <p>
-
-                International Finance Student
-
-            </p>
-
-        </div>
-
-        <div class="footer-links">
-
-            <a href="#home">
-
-                Home
-
-            </a>
-
-            <a href="#about">
-
-                About
-
-            </a>
-
-            <a href="#projects">
-
-                Projects
-
-            </a>
-
-            <a href="#contact">
-
-                Contact
-
-            </a>
-
-        </div>
-
-    </div>
-
-    <hr>
-
-    <div class="footer-bottom">
+        </h2>
 
         <p>
 
-            © 2026 Le Tien Dat.
-            All Rights Reserved.
+            International Finance Student
+
+            • Equity Research
+
+            • Corporate Finance
+
+            • Valuation
 
         </p>
 
         <div class="footer-social">
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/dattienlework/" target="_blank">
 
                 <i class="ri-linkedin-fill"></i>
 
             </a>
 
-            <a href="#">
-
-                <i class="ri-github-fill"></i>
-
-            </a>
-
-            <a href="#">
+            <a href="mailto:dattienle05.work@gmail.com">
 
                 <i class="ri-mail-fill"></i>
 
@@ -838,42 +1111,64 @@
 
         </div>
 
+        <small>
+
+            © 2026 Le Tien Dat.
+
+            All Rights Reserved.
+
+        </small>
+
     </div>
 
 </footer>
 
-<!-- ================= BACK TO TOP ================= -->
+<!--========================================
+            BACK TO TOP
+=========================================-->
 
-<button
-    id="backToTop"
-    title="Back to Top"
->
+<button id="backToTop">
 
-    ↑
+    <i class="ri-arrow-up-line"></i>
 
 </button>
 
-<!-- ================= CURSOR GLOW ================= -->
+<!--========================================
+            CURSOR GLOW
+=========================================-->
 
 <div class="cursor-glow"></div>
 
-<!-- ================= LOADING SCREEN ================= -->
+<!--========================================
+            CFA MODAL
+=========================================-->
 
-<div id="loader">
+<!--=====================================
+            CFA SCORE REPORT MODAL
+======================================-->
 
-    <h2>
+<div id="cfaModal" class="modal">
 
-        LE TIEN DAT
+    <div class="modal-content">
 
-    </h2>
+        <button class="modal-close" id="closeCFA">
 
-    <span>
+            <i class="ri-close-line"></i>
 
-        Loading Portfolio...
+        </button>
 
-    </span>
+        <iframe
+            src="assets/cfa-level1-result.pdf"
+            title="CFA Level I Score Report">
+        </iframe>
+
+    </div>
 
 </div>
+
+<!--========================================
+                SCRIPT
+=========================================-->
 
 <script src="js/script.js"></script>
 

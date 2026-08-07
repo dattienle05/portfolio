@@ -1,403 +1,1106 @@
-/*==================================================
-            RESPONSIVE.CSS
-==================================================*/
+/*====================================================
+    RESPONSIVE CSS
+    LE TIEN DAT PORTFOLIO
+=====================================================*/
 
 
-/*==========================
-      1400px
-==========================*/
+/*====================================================
+    TABLET / SMALL LAPTOP
+=====================================================*/
 
-@media (max-width:1400px){
+@media (max-width: 1200px){
 
-.hero{
+    /*============================
+        GLOBAL CONTAINER
+    =============================*/
 
-grid-template-columns:1fr 400px;
+    .container{
 
-gap:60px;
+        width:calc(100% - 60px);
 
-}
+        max-width:1100px;
 
-.hero h1{
+        margin:0 auto;
 
-font-size:80px;
+    }
 
-}
 
-.section{
+    /*============================
+        NAVIGATION
+    =============================*/
 
-padding:110px 7%;
+    .nav-container{
 
-}
+        padding-left:30px;
 
-}
+        padding-right:30px;
 
+    }
 
-/*==========================
-      1200px
-==========================*/
 
-@media (max-width:1200px){
+    /*============================
+        HERO
+    =============================*/
 
-.navbar{
+    .hero{
 
-gap:22px;
+        grid-template-columns:1.1fr .9fr;
 
-}
+        gap:45px;
 
-.hero{
+        padding-top:150px;
 
-grid-template-columns:1fr;
+    }
 
-text-align:center;
+    .hero h1{
 
-}
+        font-size:60px;
 
-.hero-left{
+    }
 
-order:2;
+    .hero-description{
 
-}
+        font-size:18px;
 
-.hero-right{
+        max-width:620px;
 
-order:1;
+    }
 
-margin-bottom:60px;
 
-}
+    /*============================
+        HERO DASHBOARD
+    =============================*/
 
-.hero-description{
+    .hero-dashboard{
 
-margin:auto;
+        grid-template-columns:repeat(2,1fr);
 
-margin-bottom:40px;
+        gap:20px;
 
-}
+    }
 
-.hero-button{
+    .dashboard-card{
 
-justify-content:center;
+        min-height:200px;
 
-}
+        padding:30px 20px;
 
-.hero-social{
+    }
 
-justify-content:center;
+    .dashboard-card i{
 
-}
+        font-size:32px;
 
-.about-content{
+        margin-bottom:18px;
 
-grid-template-columns:1fr;
+    }
 
-}
+    .dashboard-card h3{
 
-.skills-grid{
+        font-size:42px;
 
-grid-template-columns:repeat(2,1fr);
+        margin-bottom:14px;
 
-}
+    }
 
-.projects-grid{
+    .dashboard-card span{
 
-grid-template-columns:1fr;
+        font-size:16px;
 
-}
+    }
 
-.certificate-grid{
 
-grid-template-columns:repeat(2,1fr);
+    /*============================
+        CFA DASHBOARD
+    =============================*/
 
-}
+    .dashboard-cfa-card{
 
-}
+        min-height:200px;
 
+        padding:30px 20px;
 
-/*==========================
-      992px
-==========================*/
+    }
 
-@media (max-width:992px){
+    .dashboard-cfa-card i{
 
-.header{
+        font-size:42px;
 
-padding:20px 6%;
+    }
 
-}
+    .dashboard-cfa-card h3{
 
-.section{
+        font-size:48px;
 
-padding:90px 6%;
+    }
 
-}
+    .dashboard-cfa-card span{
 
-.hero h1{
+        font-size:17px;
 
-font-size:68px;
+    }
 
-}
 
-.hero h2{
+    /*============================
+        PROJECTS
+    =============================*/
 
-font-size:28px;
+    .projects-grid{
 
-}
+        width:100%;
 
-.profile-card{
+        margin:0;
 
-width:340px;
+        grid-template-columns:repeat(2,minmax(0,1fr));
 
-height:430px;
+        gap:28px;
 
-}
+    }
 
-.experience-card{
+    .project-content{
 
-grid-template-columns:1fr;
+        padding:28px;
 
-}
+    }
 
-.timeline{
+    .project-content h3{
 
-padding-left:35px;
+        font-size:22px;
 
-}
+    }
 
-}
+    .project-content p{
 
+        font-size:15px;
 
-/*==========================
-      768px
-==========================*/
+    }
 
-@media (max-width:768px){
 
-.header{
+    /*============================
+        PROJECT IMAGE
+    =============================*/
 
-flex-direction:column;
+    .project-image{
 
-gap:18px;
+        height:200px;
 
-}
-
-.navbar{
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:16px;
-
-}
-
-.section-title{
-
-flex-direction:column;
-
-align-items:flex-start;
-
-gap:10px;
-
-}
-
-.section-title h2{
-
-font-size:42px;
-
-}
-
-.hero{
-
-padding-top:170px;
-
-}
-
-.hero h1{
-
-font-size:52px;
-
-}
-
-.hero h2{
-
-font-size:24px;
-
-}
-
-.hero-description{
-
-font-size:16px;
-
-}
-
-.profile-card{
-
-width:300px;
-
-height:380px;
-
-}
-
-.skills-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.certificate-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.contact-container{
-
-grid-template-columns:1fr !important;
-
-}
-
-.footer-top{
-
-flex-direction:column;
-
-gap:30px;
-
-}
-
-.footer-bottom{
-
-flex-direction:column;
-
-gap:20px;
-
-}
+    }
 
 }
 
 
-/*==========================
-      576px
-==========================*/
+/*====================================================
+    TABLET
+=====================================================*/
 
-@media (max-width:576px){
+@media (max-width: 992px){
 
-.section{
+    /*============================
+        GLOBAL CONTAINER
+    =============================*/
 
-padding:80px 5%;
+    .container{
+
+        width:calc(100% - 50px);
+
+        max-width:900px;
+
+    }
+
+
+    /*============================
+        NAVIGATION
+    =============================*/
+
+    .nav-menu{
+
+        gap:20px;
+
+    }
+
+    .nav-menu a{
+
+        font-size:14px;
+
+    }
+
+
+    /*============================
+        HERO
+    =============================*/
+
+    .hero{
+
+        grid-template-columns:1fr;
+
+        gap:55px;
+
+        padding-top:135px;
+
+    }
+
+    .hero-content{
+
+        max-width:750px;
+
+    }
+
+    .hero h1{
+
+        font-size:56px;
+
+    }
+
+    .hero-description{
+
+        max-width:720px;
+
+    }
+
+
+    /*============================
+        HERO DASHBOARD
+    =============================*/
+
+    .hero-dashboard{
+
+        width:100%;
+
+        max-width:700px;
+
+        margin:0 auto;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:20px;
+
+    }
+
+    .dashboard-card{
+
+        min-height:190px;
+
+    }
+
+
+    /*============================
+        ABOUT
+    =============================*/
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+        gap:35px;
+
+    }
+
+
+    /*============================
+        EDUCATION
+    =============================*/
+
+    .education-card{
+
+        padding:30px;
+
+    }
+
+
+    /*============================
+        PROJECTS
+    =============================*/
+
+    .projects-grid{
+
+        width:100%;
+
+        max-width:none;
+
+        grid-template-columns:repeat(2,minmax(0,1fr));
+
+        gap:24px;
+
+    }
+
+    .project-image{
+
+        height:190px;
+
+    }
+
+    .project-content{
+
+        padding:25px;
+
+    }
+
+    .project-content h3{
+
+        font-size:21px;
+
+        line-height:1.35;
+
+    }
+
+    .project-content p{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+
+    /*============================
+        SECTION HEADER
+    =============================*/
+
+    .section-header{
+
+        margin-bottom:35px;
+
+    }
+
+    .section-header h2{
+
+        font-size:42px;
+
+    }
 
 }
 
-.hero h1{
 
-font-size:42px;
+/*====================================================
+    MOBILE
+=====================================================*/
+
+@media (max-width: 768px){
+
+    /*============================
+        GLOBAL CONTAINER
+    =============================*/
+
+    .container{
+
+        width:calc(100% - 32px);
+
+        max-width:none;
+
+    }
+
+
+    /*============================
+        NAVIGATION
+    =============================*/
+
+    .nav-container{
+
+        padding-left:16px;
+
+        padding-right:16px;
+
+    }
+
+    .nav-menu{
+
+        display:none;
+
+    }
+
+    .nav-toggle{
+
+        display:flex;
+
+        align-items:center;
+
+        justify-content:center;
+
+    }
+
+
+    /*============================
+        HERO
+    =============================*/
+
+    .hero{
+
+        min-height:auto;
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+        padding-top:110px;
+
+        padding-bottom:70px;
+
+    }
+
+    .hero-content{
+
+        max-width:100%;
+
+    }
+
+    .hero-tag{
+
+        font-size:13px;
+
+        padding:9px 16px;
+
+        margin-bottom:24px;
+
+    }
+
+    .hero h1{
+
+        font-size:44px;
+
+        line-height:1.1;
+
+        letter-spacing:-1px;
+
+        margin-bottom:22px;
+
+    }
+
+    .hero-description{
+
+        font-size:16px;
+
+        line-height:1.7;
+
+        margin-bottom:32px;
+
+        max-width:100%;
+
+    }
+
+
+    /*============================
+        HERO BUTTONS
+    =============================*/
+
+    .hero-buttons{
+
+        gap:12px;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero-buttons a{
+
+        padding:14px 20px;
+
+    }
+
+
+    /*============================
+        HERO DASHBOARD
+    =============================*/
+
+    .hero-dashboard{
+
+        width:100%;
+
+        max-width:600px;
+
+        margin:0 auto;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:14px;
+
+    }
+
+    .dashboard-card{
+
+        min-height:165px;
+
+        padding:25px 15px;
+
+    }
+
+    .dashboard-card i{
+
+        font-size:28px;
+
+        margin-bottom:14px;
+
+    }
+
+    .dashboard-card h3{
+
+        font-size:38px;
+
+        margin-bottom:10px;
+
+    }
+
+    .dashboard-card span{
+
+        font-size:14px;
+
+        line-height:1.4;
+
+    }
+
+
+    /*============================
+        CFA DASHBOARD
+    =============================*/
+
+    .dashboard-cfa-card{
+
+        min-height:165px;
+
+        padding:25px 15px;
+
+        gap:8px;
+
+    }
+
+    .dashboard-cfa-card i{
+
+        font-size:38px;
+
+        margin-bottom:12px;
+
+    }
+
+    .dashboard-cfa-card h3{
+
+        font-size:42px;
+
+        margin-bottom:8px;
+
+    }
+
+    .dashboard-cfa-card span{
+
+        font-size:15px;
+
+        line-height:1.4;
+
+    }
+
+
+    /*============================
+        SECTION
+    =============================*/
+
+    section{
+
+        padding-top:70px;
+
+        padding-bottom:70px;
+
+    }
+
+
+    /*============================
+        SECTION HEADER
+    =============================*/
+
+    .section-header{
+
+        margin-bottom:30px;
+
+    }
+
+    .section-header span{
+
+        font-size:14px;
+
+    }
+
+    .section-header h2{
+
+        font-size:34px;
+
+        line-height:1.2;
+
+    }
+
+
+    /*============================
+        ABOUT
+    =============================*/
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+    .profile-card{
+
+        padding:25px;
+
+    }
+
+    .education-card{
+
+        padding:25px;
+
+    }
+
+
+    /*============================
+        EDUCATION
+    =============================*/
+
+    .education-item{
+
+        padding-left:22px;
+
+        margin-bottom:24px;
+
+    }
+
+    .education-item strong{
+
+        font-size:17px;
+
+    }
+
+    .education-item span{
+
+        font-size:15px;
+
+    }
+
+    .education-item small{
+
+        font-size:13px;
+
+    }
+
+
+    /*============================
+        PROJECTS
+    =============================*/
+
+    .projects-grid{
+
+        width:100%;
+
+        max-width:none;
+
+        margin:0;
+
+        grid-template-columns:1fr;
+
+        gap:24px;
+
+    }
+
+    .project-card{
+
+        width:100%;
+
+    }
+
+    .project-image{
+
+        height:190px;
+
+    }
+
+    .project-content{
+
+        padding:24px;
+
+    }
+
+    .project-content h3{
+
+        font-size:21px;
+
+        line-height:1.35;
+
+    }
+
+    .project-content p{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+
+    /*============================
+        PROJECT TOP
+    =============================*/
+
+    .project-top{
+
+        gap:10px;
+
+    }
+
+    .project-tag{
+
+        font-size:12px;
+
+        padding:7px 12px;
+
+    }
+
+    .project-year{
+
+        font-size:13px;
+
+    }
+
+
+    /*============================
+        PROJECT FOOTER
+    =============================*/
+
+    .project-footer{
+
+        margin-top:22px;
+
+        gap:15px;
+
+    }
+
+
+    /*============================
+        MODAL
+    =============================*/
+
+    .modal-content{
+
+        width:94vw;
+
+        height:85vh;
+
+        border-radius:16px;
+
+    }
+
+    .modal-close{
+
+        width:40px;
+
+        height:40px;
+
+        top:12px;
+
+        right:12px;
+
+        font-size:20px;
+
+    }
 
 }
 
-.hero h2{
 
-font-size:20px;
+/*====================================================
+    SMALL MOBILE
+=====================================================*/
 
-}
+@media (max-width: 480px){
 
-.hero-button{
+    /*============================
+        GLOBAL CONTAINER
+    =============================*/
 
-flex-direction:column;
+    .container{
 
-}
+        width:calc(100% - 24px);
 
-.btn-primary,
-
-.btn-secondary{
-
-width:100%;
-
-}
-
-.profile-card{
-
-width:260px;
-
-height:330px;
-
-}
-
-.project-info{
-
-padding:22px;
-
-}
-
-.project-info h3{
-
-font-size:22px;
-
-}
-
-.about-text h3{
-
-font-size:30px;
-
-}
-
-.timeline-content{
-
-padding:22px;
-
-}
-
-.experience-card{
-
-padding:28px;
-
-}
-
-.contact-right input,
-
-.contact-right textarea{
-
-font-size:15px;
-
-}
-
-}
+    }
 
 
-/*==========================
-      400px
-==========================*/
+    /*============================
+        HERO
+    =============================*/
 
-@media (max-width:400px){
+    .hero{
 
-.hero h1{
+        padding-top:95px;
 
-font-size:34px;
+        padding-bottom:55px;
 
-}
+    }
 
-.section-title h2{
+    .hero h1{
 
-font-size:34px;
+        font-size:36px;
 
-}
+        line-height:1.1;
 
-.logo{
+    }
 
-font-size:16px;
+    .hero-description{
 
-}
+        font-size:15px;
 
-.navbar a{
+        line-height:1.7;
 
-font-size:13px;
+    }
 
-}
 
-.profile-card{
+    /*============================
+        HERO BUTTONS
+    =============================*/
 
-width:220px;
+    .hero-buttons{
 
-height:280px;
+        flex-direction:column;
 
-}
+        width:100%;
+
+    }
+
+    .hero-buttons a{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+
+    /*============================
+        HERO DASHBOARD
+    =============================*/
+
+    .hero-dashboard{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:10px;
+
+    }
+
+    .dashboard-card{
+
+        min-height:145px;
+
+        padding:20px 10px;
+
+    }
+
+    .dashboard-card i{
+
+        font-size:24px;
+
+        margin-bottom:10px;
+
+    }
+
+    .dashboard-card h3{
+
+        font-size:32px;
+
+        margin-bottom:7px;
+
+    }
+
+    .dashboard-card span{
+
+        font-size:12px;
+
+    }
+
+
+    /*============================
+        CFA DASHBOARD
+    =============================*/
+
+    .dashboard-cfa-card{
+
+        min-height:145px;
+
+        padding:20px 10px;
+
+        gap:6px;
+
+    }
+
+    .dashboard-cfa-card i{
+
+        font-size:32px;
+
+        margin-bottom:7px;
+
+    }
+
+    .dashboard-cfa-card h3{
+
+        font-size:36px;
+
+        margin-bottom:5px;
+
+    }
+
+    .dashboard-cfa-card span{
+
+        font-size:13px;
+
+    }
+
+
+    /*============================
+        SECTION
+    =============================*/
+
+    section{
+
+        padding-top:55px;
+
+        padding-bottom:55px;
+
+    }
+
+
+    /*============================
+        SECTION HEADER
+    =============================*/
+
+    .section-header{
+
+        margin-bottom:25px;
+
+    }
+
+    .section-header h2{
+
+        font-size:29px;
+
+    }
+
+
+    /*============================
+        PROJECTS
+    =============================*/
+
+    .projects-grid{
+
+        width:100%;
+
+        max-width:none;
+
+        margin:0;
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .project-image{
+
+        height:170px;
+
+    }
+
+    .project-content{
+
+        padding:20px;
+
+    }
+
+    .project-content h3{
+
+        font-size:19px;
+
+        line-height:1.35;
+
+    }
+
+    .project-content p{
+
+        font-size:14px;
+
+        line-height:1.65;
+
+    }
+
+
+    /*============================
+        PROJECT FOOTER
+    =============================*/
+
+    .project-footer{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:12px;
+
+    }
+
+    .project-link{
+
+        font-size:14px;
+
+    }
+
+
+    /*============================
+        EDUCATION
+    =============================*/
+
+    .education-card{
+
+        padding:22px;
+
+    }
+
+    .education-item strong{
+
+        font-size:16px;
+
+    }
+
+    .education-item span{
+
+        font-size:14px;
+
+    }
+
+    .education-item small{
+
+        font-size:13px;
+
+    }
+
+
+    /*============================
+        MODAL
+    =============================*/
+
+    .modal-content{
+
+        width:96vw;
+
+        height:82vh;
+
+        border-radius:14px;
+
+    }
+
+    .modal-close{
+
+        width:38px;
+
+        height:38px;
+
+        top:10px;
+
+        right:10px;
+
+    }
 
 }
